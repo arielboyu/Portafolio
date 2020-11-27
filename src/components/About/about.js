@@ -45,7 +45,7 @@ export default function About(){
       <a href="https://www.linkedin.com/in/ariel-salcedo-b423b61ba/" target="_parent"><button type="button" class="btn btn-primary">Linkedin  <ion-icon name="logo-linkedin"></ion-icon></button></a>
      </div>
      <div className="cardInfo" >
-     <p> <ion-icon name="accessibility-outline"></ion-icon> Bienvenidos a mi portfolio de presentación,mi nombre es Ariel , soy aficionado a la tecnología ,
+     <p> <ion-icon name="accessibility-outline"></ion-icon> Bienvenidos a mi portafolio de presentación,mi nombre es Ariel , soy aficionado a la tecnología ,
          con muchas ganas de aceptar desafios y aprender
               siempre nuevas herramientas de trabajo   <ion-icon name="rocket-outline"></ion-icon>  </p>
      </div>
