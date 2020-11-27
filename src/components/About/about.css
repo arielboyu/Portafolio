@@ -1,0 +1,108 @@
+
+
+.footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:80px;
+   width:100%;
+   background-color: black;
+   opacity: 0.9;
+   color: white;
+   font-size: 20px;
+}
+
+.cardInfo {
+  position: relative;
+  left: -5202px;
+  top: -640px;
+  background-color: black;
+  display: flex;
+  margin: 10px auto;
+  width: 20%;
+  padding: 2rem;
+  border-radius: 3%;
+  box-shadow: 10px 5px 5px black;
+  opacity: 0.9;
+  color: white;
+  font-size: 20px;
+
+}
+
+
+.enlaces{
+  position: relative;
+  left: 520px;
+  top: -800px;
+  background-color: black;
+  display: flex;
+  margin: 10px auto;
+  width: 18%;
+  padding: 2rem;
+  border-radius: 3%;
+  box-shadow: 10px 5px 5px black;
+  opacity: 0.9;
+  color: white;
+  font-size: 5px;
+}
+
+.header {
+  position: relative;
+  top: 25px;
+  background-color: black;
+  display: flex;
+  margin: 10px auto;
+  width: 50%;
+  padding: 2rem;
+  border-radius: 3%;
+  box-shadow: 10px 5px 5px black;
+  opacity: 0.9;
+   color: white
+}
+
+.About{
+   position: relative;
+   top: -124px;
+   background-color: black;
+   margin: 10px auto;
+   width: 50%;
+   padding: 2rem;
+   border-radius: 3%;
+   box-shadow: 10px 5px 5px black;
+   opacity: 0.9;
+    color: white
+}
+
+.div-foto{
+  display: flex;
+  left: 90%
+}
+
+.foto-perfil{
+   width: 20%;
+   border-radius: 60%;
+   position: relative;
+   left: 35px;
+   top: -15px;
+}
+
+.gif {
+  width: 40%;
+}
+.Descripcion{
+   justify-content: center;
+}
+
+.skills{
+   display: flex;
+   flex-wrap: wrap;
+   color: white
+}
+
+.skill{
+   background-color: grey;
+   margin: 0.3rem;
+   padding: 0.8rem;
+   border-radius: 6%;
+   color: white
+}
