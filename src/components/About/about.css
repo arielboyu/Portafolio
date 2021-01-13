@@ -104,7 +104,7 @@
   .profesion {
     position: relative;
     left: -250px;
-    top: 160px;
+    top: 155px;
   }
 }
 @media screen and (max-width:600px) {
@@ -144,7 +144,7 @@
    width: 20%;
    border-radius: 60%;
    position: relative;
-   left: 35px;
+   left: 10px;
    top: -30px;
 }
 @media screen and (max-width:600px) {
