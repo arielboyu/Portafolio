@@ -13,16 +13,16 @@ export default function About(){
     <div>
     <div className="header">
     <ion-icon style={{fontSize:"100px"}} name="person-outline"></ion-icon>
-      <h1>{info.name}</h1>
-      <h1>{info.profession}  </h1>
+      <h1 className="name" >{info.name}</h1>
+      <h1 className="profesion" >{info.profession}  </h1>
       <ion-icon style={{fontSize:"100px"}} name="code-slash-outline"></ion-icon>
     </div>
     <div className="div-foto">
         <img className="foto-perfil"  src={info.photo}></img>
     </div>
     <div className="About">
-        <div className="Descripcion">
-            <h2>Herramientas de Trabajo</h2>
+        <div className="descripcion">
+            <h2 className="herr" >Herramientas de Trabajo</h2>
             <ion-icon style={{fontSize:"35px"}} name="logo-css3"></ion-icon>
             <ion-icon style={{fontSize:"35px"}} name="logo-javascript"></ion-icon>
             <ion-icon style={{fontSize:"35px"}}  name="logo-npm"></ion-icon>
@@ -50,11 +50,11 @@ export default function About(){
               siempre nuevas herramientas de trabajo   <ion-icon name="rocket-outline"></ion-icon>  </p>
      </div>
      <footer className="footer">
-    <div>
+    <div className="contacto" >
     Contacto :
     <a href="mailto:correo@electronico\_enlazado.com"> edgararielsalcedo@gmail.com </a>
+    <img className="mail" style={{width:"60px"}} src={"https://media3.giphy.com/media/KxlbRn0HuTW7gZID83/giphy.webp?cid=ecf05e47pq6ujznfmtxyx9q27ak2uygmnnj2ksc7ib52g8el&rid=giphy.webp"}></img>
 
-     <ion-icon name="chatbox-outline"></ion-icon>
     </div>
     </footer>
     </div>

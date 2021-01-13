@@ -11,6 +11,20 @@
    color: white;
    font-size: 20px;
 }
+@media screen and (max-width:600px) {
+  .contacto {
+  position:fixed;
+  font-size: 19px;
+  }
+}
+@media screen and (max-width:600px) {
+  .mail {
+    position: relative;
+    left: -220px;
+    top: 28px;
+
+  }
+}
 
 .cardInfo {
   position: relative;
@@ -28,7 +42,15 @@
   font-size: 20px;
 
 }
-
+@media screen and (max-width:600px) {
+  .cardInfo {
+    position: relative;
+    left: 6px;
+    top: 1020px;
+    width: 60%;
+    padding: 0.5rem;
+  }
+}
 
 .enlaces{
   position: relative;
@@ -45,7 +67,21 @@
   color: white;
   font-size: 5px;
 }
-
+@media screen and (max-width:600px) {
+  .enlaces {
+    position: relative;
+    left: 8px;
+    top: 1520px;
+    background-color: black;
+    width: 65%;
+    padding: 1rem;
+  }
+}
+@media screen and (max-width:600px) {
+  .herr {
+   font-size: 26px;
+  }
+}
 .header {
   position: relative;
   top: 25px;
@@ -55,11 +91,29 @@
   width: 50%;
   padding: 2rem;
   border-radius: 3%;
-  box-shadow: 10px 5px 5px black;
   opacity: 0.9;
    color: white
 }
-
+@media screen and (max-width:600px) {
+  .header {
+  width: 55%;
+  padding: 9.5rem;
+  }
+}
+@media screen and (max-width:600px) {
+  .profesion {
+    position: relative;
+    left: -250px;
+    top: 160px;
+  }
+}
+@media screen and (max-width:600px) {
+  .name {
+    position: relative;
+    left: -75px;
+    top: -150px;
+  }
+}
 .About{
    position: relative;
    top: -124px;
@@ -71,6 +125,14 @@
    box-shadow: 10px 5px 5px black;
    opacity: 0.9;
     color: white
+}
+@media screen and (max-width:600px) {
+  .About {
+    position: relative;
+    left: -4px;
+    top: -115px;
+    width: 57%;
+  }
 }
 
 .div-foto{
@@ -85,11 +147,23 @@
    left: 35px;
    top: -30px;
 }
-
+@media screen and (max-width:600px) {
+  .div-foto {
+    position: relative;
+    left: 100px;
+    top: -255px;
+    width: 180%;
+  }
+}
 .gif {
   width: 40%;
 }
-.Descripcion{
+@media screen and (max-width:600px) {
+  .gif {
+    width: 100%;
+  }
+}
+.descripcion{
    justify-content: center;
 }
 
