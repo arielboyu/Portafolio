@@ -17,7 +17,7 @@ export default function Portfolio(){
                       <h1>{p.name}</h1>
                       <img className="imagen-proyecto" alt="imagen-proyecto" src={p.image}></img>
                       <p>{p.descripcion}</p>
-                      <a className="boton-visitar" href={p.link}>Ver Proyecto</a>
+                      <a href={p.link} target="_blank">Ver Proyecto</a>
                   </div>
               )}
           </div>

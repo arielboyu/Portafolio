@@ -40,9 +40,9 @@ export default function About(){
         </div>
      </div>
      <div className="enlaces" >
-       <a href="https://github.com/arielboyu" target="_parent"><button type="button" class="btn btn-success">Github <ion-icon name="logo-github"></ion-icon></button></a>
+       <a href="javascript:window.open('https://github.com/arielboyu','',);void 0"><button type="button" class="btn btn-success">Github <ion-icon name="logo-github"></ion-icon></button></a><br/>
        <div class="col-sm-1 col-xs-1 col-md-1 col-lg-1"></div>
-      <a href="https://www.linkedin.com/in/ariel-salcedo-b423b61ba/" target="_parent"><button type="button" class="btn btn-primary">Linkedin  <ion-icon name="logo-linkedin"></ion-icon></button></a>
+       <a href="javascript:window.open('https://www.linkedin.com/in/ariel-salcedo-b423b61ba/','',);void 0"><button type="button"  class="btn btn-primary">Linkedin <ion-icon name="logo-github"></ion-icon></button></a><br/>
      </div>
      <div className="cardInfo" >
      <p> <ion-icon name="accessibility-outline"></ion-icon> Bienvenidos a mi portafolio de presentación,mi nombre es Ariel , soy aficionado a la tecnología ,
