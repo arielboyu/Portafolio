@@ -14,12 +14,12 @@
 .name-footer{
   position: relative;
   left: -580px;
-  top: 15px;
+  top: 12px;
 }
 .name-profesion{
   position: relative;
   left: 550px;
-  top: -50px;
+  top: -60px;
 }
 
 .contacto {
@@ -176,6 +176,13 @@
    position: relative;
    left: 30px;
    top: -34px;
+}
+.foto-perfil-peq {
+  width: 3%;
+  border-radius: 60%;
+  position: relative;
+  left: 10px;
+  top: -4px;
 }
 @media screen and (max-width:600px) {
   .div-foto {

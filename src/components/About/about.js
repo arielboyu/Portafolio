@@ -54,17 +54,20 @@ export default function About(){
        <div className="linea2"></div>
      <footer className="footer">
      <div className="name-footer">
-     <ion-icon style={{fontSize:"25px"}} name="person-outline"></ion-icon>
+     <div className="div-foto-peq">
+         <img className="foto-perfil-peq"  src={info.photo}></img>
+     </div>
        <h1 style={{fontSize:"20px"}} >{info.name}</h1>
      </div>
     <div className="contacto" >
-    Contacto :
     <a href="mailto:correo@electronico\_enlazado.com"> edgararielsalcedo@gmail.com </a>
     <img className="mail" style={{width:"60px"}} src={"https://media3.giphy.com/media/KxlbRn0HuTW7gZID83/giphy.webp?cid=ecf05e47pq6ujznfmtxyx9q27ak2uygmnnj2ksc7ib52g8el&rid=giphy.webp"}></img>
     </div>
     <div className="name-profesion">
-    <h1  style={{fontSize:"20px"}} className="profesion" >{info.profession}  </h1>
-    <ion-icon style={{fontSize:"25px"}} name="code-slash-outline"></ion-icon>
+    <div className="div-foto-peq">
+        <img   className="foto-perfil-peq"  src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReNaM3fklKykNdvYDZS7boV413K1DkojtQkw&usqp=CAU"}></img>
+        <h1  style={{fontSize:"20px"}} className="profesion" >{info.profession}  </h1>
+    </div>
     </div>
     </footer>
     </div>
