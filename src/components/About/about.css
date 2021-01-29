@@ -11,10 +11,40 @@
    color: white;
    font-size: 20px;
 }
-@media screen and (max-width:600px) {
-  .contacto {
+.name-footer{
+  position: relative;
+  left: -580px;
+  top: 15px;
+}
+.name-profesion{
+  position: relative;
+  left: 550px;
+  top: -50px;
+}
+
+.contacto {
+  position: relative;
+  left: 450px;
+  top: 600px;
   position:fixed;
   font-size: 19px;
+}
+@media screen and (max-width:600px) {
+  .name-profesion {
+   display: none
+  }
+}
+@media screen and (max-width:600px) {
+  .name-footer {
+  display: none
+  }
+}
+@media screen and (max-width:600px) {
+  .contacto {
+    position: relative;
+    left: -165px;
+    top: 0px;
+    font-size: 16px
   }
 }
 @media screen and (max-width:600px) {
@@ -116,7 +146,7 @@
 }
 .About{
    position: relative;
-   top: -124px;
+   top: -128px;
    background-color: black;
    margin: 10px auto;
    width: 50%;
@@ -150,8 +180,8 @@
 @media screen and (max-width:600px) {
   .div-foto {
     position: relative;
-    left: 100px;
-    top: -240px;
+    left: 80px;
+    top: -220px;
     width: 180%;
   }
 }
