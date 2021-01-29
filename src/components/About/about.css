@@ -25,7 +25,7 @@
 .contacto {
   position: relative;
   left: 450px;
-  top: 600px;
+  top: 585px;
   position:fixed;
   font-size: 19px;
 }
@@ -175,7 +175,7 @@
    border-radius: 60%;
    position: relative;
    left: 30px;
-   top: -34px;
+   top: -48px;
 }
 .foto-perfil-peq {
   width: 3%;
