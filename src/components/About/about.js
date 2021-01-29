@@ -45,10 +45,13 @@ export default function About(){
        <a href="javascript:window.open('https://www.linkedin.com/in/ariel-salcedo-b423b61ba/','',);void 0"><button type="button"  class="btn btn-primary">Linkedin <ion-icon name="logo-github"></ion-icon></button></a><br/>
      </div>
      <div className="cardInfo" >
-     <p> <ion-icon name="accessibility-outline"></ion-icon> Bienvenidos a mi portafolio de presentación,mi nombre es Ariel , soy aficionado a la tecnología ,
+     <div className="linea1"></div>
+     <p className="parrafo" > <ion-icon name="accessibility-outline"></ion-icon> Bienvenidos a mi portafolio de presentación,mi nombre es Ariel Salcedo, soy aficionado a la tecnología ,
          con muchas ganas de aceptar desafios y aprender
               siempre nuevas herramientas de trabajo   <ion-icon name="rocket-outline"></ion-icon>  </p>
+
      </div>
+       <div className="linea2"></div>
      <footer className="footer">
     <div className="contacto" >
     Contacto :
@@ -60,3 +63,10 @@ export default function About(){
     </div>
   )
 }
+
+
+
+/* .parrafo {
+  position: absolute;
+  top:20px
+} */

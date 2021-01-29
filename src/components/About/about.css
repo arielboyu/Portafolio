@@ -71,7 +71,7 @@
   .enlaces {
     position: relative;
     left: 8px;
-    top: 1520px;
+    top: 1540px;
     background-color: black;
     width: 65%;
     padding: 1rem;
@@ -144,14 +144,14 @@
    width: 20%;
    border-radius: 60%;
    position: relative;
-   left: 10px;
-   top: -30px;
+   left: 30px;
+   top: -34px;
 }
 @media screen and (max-width:600px) {
   .div-foto {
     position: relative;
     left: 100px;
-    top: -255px;
+    top: -240px;
     width: 180%;
   }
 }
