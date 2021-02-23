@@ -1,120 +1,5 @@
-
-
-.footer {
-   position:fixed;
-   left:0px;
-   bottom:0px;
-   height:80px;
-   width:100%;
-   background-color: black;
-   opacity: 0.9;
-   color: white;
-   font-size: 20px;
-}
-.name-footer{
-  position: relative;
-  left: -580px;
-  top: 12px;
-}
-.name-profesion{
-  position: relative;
-  left: 550px;
-  top: -60px;
-}
-
-.contacto {
-  position: relative;
-  left: 450px;
-  top: 585px;
-  position:fixed;
-  font-size: 19px;
-}
-@media screen and (max-width:600px) {
-  .name-profesion {
-   display: none
-  }
-}
-@media screen and (max-width:600px) {
-  .name-footer {
-  display: none
-  }
-}
-@media screen and (max-width:600px) {
-  .contacto {
-    position: relative;
-    left: -165px;
-    top: 0px;
-    font-size: 16px
-  }
-}
-@media screen and (max-width:600px) {
-  .mail {
-    position: relative;
-    left: -220px;
-    top: 28px;
-
-  }
-}
-
-.cardInfo {
-  position: relative;
-  left: -510px;
-  top: -590px;
-  background-color: black;
-  display: flex;
-  margin: 10px auto;
-  width: 18%;
-  padding: 2rem;
-  border-radius: 3%;
-  box-shadow: 10px 5px 5px black;
-  opacity: 0.9;
-  color: white;
-  font-size: 20px;
-
-}
-@media screen and (max-width:600px) {
-  .cardInfo {
-    position: relative;
-    left: 6px;
-    top: 1020px;
-    width: 60%;
-    padding: 0.5rem;
-  }
-}
-
-.enlaces{
-  position: relative;
-  left: 520px;
-  top: -800px;
-  background-color: black;
-  display: flex;
-  margin: 10px auto;
-  width: 18%;
-  padding: 2rem;
-  border-radius: 3%;
-  box-shadow: 10px 5px 5px black;
-  opacity: 0.9;
-  color: white;
-  font-size: 5px;
-}
-@media screen and (max-width:600px) {
-  .enlaces {
-    position: relative;
-    left: 8px;
-    top: 1540px;
-    background-color: black;
-    width: 65%;
-    padding: 1rem;
-  }
-}
-@media screen and (max-width:600px) {
-  .herr {
-   font-size: 26px;
-  }
-}
+/* Header */
 .header {
-  position: relative;
-  top: 25px;
   background-color: black;
   display: flex;
   margin: 10px auto;
@@ -122,31 +7,97 @@
   padding: 2rem;
   border-radius: 3%;
   opacity: 0.9;
-   color: white
+  color: white;
+  margin-bottom: 30px;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:770px) {
   .header {
-  width: 55%;
-  padding: 9.5rem;
+    width: 300px;
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
   }
 }
-@media screen and (max-width:600px) {
-  .profesion {
-    position: relative;
-    left: -250px;
-    top: 155px;
+
+/* foto */
+
+.foto-perfil{
+  border-radius: 80%;
+   width: 20%;
+  display: flex;
+  margin: 10px auto;
+  margin-bottom: -300px;
+}
+
+@media screen and (max-width:770px) {
+  .foto-perfil {
+    margin: 10px auto;
+    width: 200px;
+    margin-top: 20px;
   }
 }
-@media screen and (max-width:600px) {
-  .name {
-    position: relative;
-    left: -75px;
-    top: -150px;
+
+
+
+
+/* cardInfo */
+.cardInfo {
+  background-color: black;
+  width: 18%;
+  padding: 2rem;
+  border-radius: 3%;
+  box-shadow: 10px 5px 5px black;
+  opacity: 0.9;
+  color: white;
+  font-size: 20px;
+  margin-left: 16px;
+  margin-bottom: -160px;
+
+}
+@media screen and (max-width:770px) {
+  .cardInfo {
+    width: 290px;
+    height: 360px;
+    margin-bottom: 40px;
+    margin: 10px auto;
   }
 }
+
+/* enlaces */
+.enlaces{
+  display:flex;
+  justify-content: space-around;
+  background-color: black;
+  margin-left:auto;
+  margin-right: 20px;
+  width: 18%;
+  padding: 2rem;
+  border-radius: 3%;
+  box-shadow: 10px 5px 5px black;
+  opacity: 0.9;
+  color: white;
+  font-size: 5px;
+  margin-bottom: -120px;
+
+}
+.enlaces2{
+  padding-left: 14px;
+
+}
+@media screen and (max-width:770px) {
+  .enlaces {
+      margin: 10px auto;
+      width: 200px;
+      margin-bottom: 40px;
+      margin-top: 20px;
+  }
+}
+
+/* About  */
+
 .About{
-   position: relative;
-   top: -128px;
+   display: flex;
    background-color: black;
    margin: 10px auto;
    width: 50%;
@@ -154,51 +105,23 @@
    border-radius: 3%;
    box-shadow: 10px 5px 5px black;
    opacity: 0.9;
-    color: white
+   color: white
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:770px) {
   .About {
-    position: relative;
-    left: -4px;
-    top: -115px;
-    width: 57%;
+    width: 300px;
+    height: 1100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-top: 20px;
+
   }
 }
 
-.div-foto{
-  display: flex;
-  left: 90%
-}
-
-.foto-perfil{
-   width: 20%;
-   border-radius: 60%;
-   position: relative;
-   left: 30px;
-   top: -48px;
-}
-.foto-perfil-peq {
-  width: 3%;
-  border-radius: 60%;
-  position: relative;
-  left: 10px;
-  top: -4px;
-}
-@media screen and (max-width:600px) {
-  .div-foto {
-    position: relative;
-    left: 80px;
-    top: -220px;
-    width: 180%;
-  }
-}
 .gif {
   width: 40%;
-}
-@media screen and (max-width:600px) {
-  .gif {
-    width: 100%;
-  }
 }
 .descripcion{
    justify-content: center;
@@ -209,6 +132,19 @@
    flex-wrap: wrap;
    color: white
 }
+@media screen and (max-width:770px) {
+  .gif {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:770px) {
+  .skills {
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -40px
+  }
+}
 
 .skill{
    background-color: grey;
@@ -216,4 +152,73 @@
    padding: 0.8rem;
    border-radius: 6%;
    color: white
+}
+
+
+/* Footer */
+.footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:80px;
+   width:100%;
+   background-color: black;
+   opacity: 0.9;
+   color: white;
+   font-size: 20px;
+   margin-top:-20px;
+
+}
+@media screen and (max-width:770px) {
+  .footer {
+
+      position:fixed;
+      left:0px;
+      bottom:0px;
+  }
+}
+.name-footer{
+display: flex;
+justify-content: flex-start;
+margin-left: 10px;
+margin-bottom: -50px;
+}
+.foto-perfil-peq {
+  width: 3%;
+  border-radius: 60%;
+  display: flex;
+  margin-left: 40px;
+  margin-top: 4px;
+}
+
+.name-profesion{
+ margin-left:1040px ;
+ margin-bottom: -100px;
+}
+
+.contacto {
+margin-bottom: -40px;
+}
+
+.div-foto-peq2 {
+  width: 14%;
+  border-radius: 60%;
+  display: flex;
+  margin-top: -65px;
+  margin-left:110px ;
+}
+@media screen and (max-width:770px) {
+  .name-profesion {
+ display: none
+  }
+}
+@media screen and (max-width:770px) {
+  .name-footer  {
+ display: none
+  }
+}
+@media screen and (max-width:770px) {
+  .foto-perfil-peq  {
+ display: none
+  }
 }

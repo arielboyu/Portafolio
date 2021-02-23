@@ -1,8 +1,9 @@
-
 .mega-card-portfolio{
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 200px;
 }
+
 
 .individual-card{
     background-color: black;
@@ -10,18 +11,15 @@
     box-shadow: 10px 2px 2px black;
     border-radius: 3%;
     padding: 0.1%;
-    width: 60%;
+    width: 56%;
     opacity: 0.9;
     color:white;
-    position: relative;
-    left: 3px;
-    top: -600px;
+    margin-bottom: 1px;
 }
 
 .imagen-proyecto{
     width: 60%;
 }
-
 .boton-visitar{
     background-color: black;
     text-decoration: none;
