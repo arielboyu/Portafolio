@@ -12,3 +12,7 @@ export default function Loading(){
       </div>
     )
 }
+
+
+
+// <img src="https://media3.giphy.com/media/9MImS9neQuoRa3D19h/200w.webp?cid=ecf05e47vsrxzwwr2om4y8gpn257jewdigebspnlvcxbcwur&rid=200w.webp" ></img>

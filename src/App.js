@@ -1,9 +1,12 @@
 import './App.css';
+import Home from './components/Home/home'
 import About from './components/About/about'
 import Portfolio from './components/Portfolio/portfolio'
 import Loading from './components/Loading/loading'
+import Footer from './components/Footer/footer'
 import React,{useState,useEffect} from 'react'
 import axios from 'axios'
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 
 function App() {
@@ -12,7 +15,7 @@ function App() {
       .then(
         res =>
         setTimeout(() => setLoading(true))
-      )},100000)
+      )},200000)
 
 
 
@@ -29,8 +32,15 @@ function App() {
  else {
   return (
     <div className="App">
-    <About/>
-    <Portfolio/>
+    <Router>
+      <Switch>
+      <Route exact path="/" component={Home} />
+        <div>
+         <Route exact path="/proyectos" render={() => <Portfolio/>} />
+         <Route exact path="/skills" render={() => <About/>} />
+        </div>
+        </Switch>
+    </Router>
     </div>
   );
  }

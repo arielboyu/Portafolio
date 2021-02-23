@@ -1,0 +1,79 @@
+/* Footer */
+.footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:80px;
+   width:100%;
+   background-color: black;
+   opacity: 0.9;
+   color: white;
+   font-size: 20px;
+   margin-top:-20px;
+
+}
+@media screen and (max-width:770px) {
+  .footer {
+      position:fixed;
+      left:0px;
+      bottom:0px;
+  }
+}
+.name-footer{
+display: flex;
+justify-content: flex-start;
+margin-left: 10px;
+margin-bottom: -50px;
+}
+.foto-perfil-peq {
+  width: 3%;
+  border-radius: 60%;
+  display: flex;
+  margin-left: 40px;
+  margin-top: 4px;
+}
+
+.name-profesion{
+ margin-left:1040px ;
+ margin-bottom: -100px;
+}
+
+.contacto {
+margin-bottom: -40px;
+}
+@media screen and (max-width:770px) {
+  .name-footer {
+ flex-direction: row;
+align-items: flex-start;
+justify-content: center;
+margin-top: 8px;
+
+  }
+}
+@media screen and (max-width:770px) {
+  .contacto {
+    display: flex;
+   align-items: baseline;
+   margin-top: 20px;
+   margin-left: 20px
+
+  }
+}
+.div-foto-peq2 {
+  width: 14%;
+  border-radius: 60%;
+  display: flex;
+  margin-top: -65px;
+  margin-left:110px ;
+}
+@media screen and (max-width:770px) {
+  .name-profesion {
+ display: none
+  }
+}
+
+@media screen and (max-width:770px) {
+  .foto-perfil-peq  {
+ display: none
+  }
+}
