@@ -32,21 +32,21 @@ export default function Home(){
       <h1 className="job" >{info.profession} </h1>
       <ion-icon className="job" style={{fontSize:"100px"}} name="code-slash-outline"></ion-icon>
     </div>
-    <div className="foto-cont" >
-    <div className="div-foto">
-        <img className="foto-perfil"  src={info.photo}></img>
-    </div>
-    </div>
     <div className="bts" >
     <div className="bt-proyectos" >
     <Link to="/proyectos" >
-      <a className="href1" ><ion-icon  style={{fontSize:"120px",color:'black'}}  name="bag-handle-outline"></ion-icon>Proyectos</a>
+      <a className="href1" ><ion-icon  style={{fontSize:"120px",color:'black'}}  name="bag-handle-outline"></ion-icon></a>
       </Link>
     </div>
     <div className="bt-about" >
     <Link to="/skills" >
-      <a className="href2" ><ion-icon style={{fontSize:"120px",color:'white'}}  name="construct-outline"></ion-icon>Skills</a>
+      <a className="href2" ><ion-icon style={{fontSize:"120px",color:'white'}}  name="construct-outline"></ion-icon></a>
       </Link>
+    </div>
+    </div>
+    <div className="foto-cont" >
+    <div className="div-foto">
+        <img className="foto-perfil"  src={info.photo}></img>
     </div>
     </div>
     <div className="enlaces" >

@@ -10,38 +10,15 @@
   color: white;
   margin-bottom: 20px;
 }
-@media screen and (max-width:770px) {
-  .header {
-    width: 100%;
-    align-items: flex-end;
-    height: 120px;
-    margin-bottom: 10px;
-    padding: 2rem;
-  }
-}
-
-@media screen and (max-width:770px) {
-  .nameH {
-    font-size: 24px;
-    margin-left: 6px;
-    margin-right:8px
-  }
-}
-@media screen and (max-width:770px) {
-  .job {
-    font-size: 24px;
-    margin-left: 6px;
-    margin-right:8px
-  }
-}
-
-
 
 /* foto */
-.foto-cont{
-
+.bts{
+display: flex;
+justify-content:space-around;
+padding: 10%;
+margin-bottom: -300px;
 }
-.foto-cont:hover{
+.foto-perfil:hover{
 -moz-transform: scaleX(-1); /* Firefox */
 -o-transform: scaleX(-1); /* Opera */
 -webkit-transform: scaleX(-1); /* Chrome y Safari */
@@ -53,75 +30,9 @@ transform: scaleX(-1); /* w3org */
   width: 18%;
   display: flex;
   margin: 10px auto;
-  margin-top: 20px;
-  margin-bottom: -120px;
+  margin-top: -20px;
+  margin-bottom: -650px;
 }
-@media screen and (max-width:770px) {
-  .foto-perfil {
-    margin: 10px auto;
-    width: 100px;
-    margin-top: 5px;
-  }
-}
-
-/* Botones */
-.href1{
-color:black;
-display: flex;
-flex-direction: column;
-margin-right: 800px;
-
-}
-@media screen and (max-width:770px) {
-  .href1 {
-margin-right: 220px;
-
-  }
-}
-@media screen and (max-width:770px) {
-  .href2 {
- width: 100px;
- font-size: 15px
-  }
-}
-
-
-
-.href2{
-color:white;
-display: flex;
-flex-direction: column;
-margin-right: 380px;
-margin-bottom: 20px;
-}
-
-.bt-proyectos {
-margin-left: 380px;
-margin-top: -20px;
-
-}
-
-@media screen and (max-width:770px) {
-  .bt-proyectos {
-margin-left: 20px;
-margin-top: -20px;
-  }
-}
-
-.bt-about  {
-margin-left: 790px;
-margin-top: -140px;
-margin-bottom: -180px;
-}
-@media screen and (max-width:770px) {
-  .bt-about {
-    margin-left: 230px;
-    margin-top: -140px;
-    font-size: 10px;
-    margin-bottom: 220px;
-  }
-}
-
 
 /* cardInfo */
 .cardInfo {
@@ -135,18 +46,8 @@ margin-bottom: -180px;
   color: white;
   font-size: 20px;
   margin-left: 16px;
-  margin-bottom: 100px;
+  margin-top: -200px
 
-}
-@media screen and (max-width:770px) {
-  .cardInfo {
-    width: 290px;
-    height: 180px;
-    margin-top: -600px;
-    margin: 10px auto;
-    margin-bottom: 100px;
-    font-size: 14px;
-  }
 }
 
 /* enlaces */
@@ -163,28 +64,78 @@ margin-bottom: -180px;
   opacity: 0.9;
   color: white;
   font-size: 5px;
-  margin-bottom: -320px;
+  margin-top: 280px
 
 }
 .enlaces2{
   padding-left: 14px;
 
 }
+
+@media screen and (max-width:770px) {
+  .header {
+    width: 90%;
+    align-items: flex-end;
+    height: 110px;
+    padding: 1rem;
+    margin-bottom:15%
+  }
+}
+@media screen and (max-width:770px) {
+  .foto-perfil {
+    margin: 10px auto;
+    width: 30%;
+  }
+}
+
+/* Botones */
+@media screen and (max-width:770px) {
+  .bts {
+    display: flex;
+    justify-content:space-around;
+    padding: 16%;
+  }
+}
 @media screen and (max-width:770px) {
   .enlaces2 {
-  padding-left: 80px;
+  padding-left: 80px
   }
 }
 
 @media screen and (max-width:770px) {
   .enlaces {
+      display: none;
       flex-direction: row;
       align-items: center;
       justify-content: center;
-      margin-bottom: 230px;
-      margin-top: -540px;
       background-color: transparent;
       box-shadow: 1px 1px 1px transparent;
       width: 100%;
+      padding: 10%
+  }
+}
+
+
+@media screen and (max-width:770px) {
+  .nameH {
+    font-size: 24px;
+    margin-left: 6px;
+    margin-right:8px
+  }
+}
+@media screen and (max-width:770px) {
+  .job {
+    font-size: 24px;
+    margin-left: 6px;
+    margin-right:8px
+  }
+}
+@media screen and (max-width:770px) {
+  .cardInfo {
+    width: 290px;
+    height: 180px;
+    margin: 10px auto;
+    font-size: 14px;
+    margin-top: 120px
   }
 }
