@@ -79,8 +79,8 @@ transform: scaleX(-1); /* w3org */
     width: 90%;
     align-items: flex-end;
     height: 115px;
-    padding: 1rem;
-    margin-bottom:15%
+    padding: 0.5rem;
+    margin-bottom:17%
   }
 }
 @media screen and (max-width:770px) {
@@ -136,6 +136,6 @@ display: none;
     height: 180px;
     margin: 10px auto;
     font-size: 14px;
-    margin-top: 120px
+    margin-top: 140px
   }
 }
