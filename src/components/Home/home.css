@@ -136,8 +136,13 @@ display: none;
 }
 @media screen and (max-width:770px) {
   .cardInfo {
+<<<<<<< HEAD
     width: 70%;
     height: 180px;
+=======
+    width: 260px;
+    height: 200px;
+>>>>>>> 12f663133f3c07b8085325b293237eadeb429dc3
     margin: 16%auto;
     font-size: 12px;
     margin-top: 140px; 
