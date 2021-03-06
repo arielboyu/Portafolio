@@ -4,6 +4,12 @@ import './home.css'
 import Footer from '../Footer/footer'
 import { Link } from "react-router-dom";
 import Loading from '../Loading/loading'
+import DeveloperModeIcon from '@material-ui/icons/DeveloperMode';
+import PersonOutlineSharpIcon from '@material-ui/icons/PersonOutlineSharp';
+import BuildOutlinedIcon from '@material-ui/icons/BuildOutlined';
+import LocalMallRoundedIcon from '@material-ui/icons/LocalMallRounded';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 export default function Home(){
   const [loading,setLoading] = useState(false)
@@ -27,20 +33,20 @@ export default function Home(){
   return (
     <div>
     <div className="header">
-    <ion-icon className="nameH" style={{fontSize:"100px"}} name="person-outline"></ion-icon>
+    <PersonOutlineSharpIcon className="nameH" style={{fontSize:"100px"}} name="person-outline"></PersonOutlineSharpIcon>
       <h1 className="nameH" >{info.name}</h1>
       <h1 className="job" >{info.profession} </h1>
-      <ion-icon className="job" style={{fontSize:"100px"}} name="code-slash-outline"></ion-icon>
+      <DeveloperModeIcon className="nameH" style={{fontSize:"100px"}} name="person-outline"></DeveloperModeIcon>
     </div>
     <div className="bts" >
     <div className="bt-proyectos" >
     <Link to="/proyectos" >
-      <a className="href1" ><ion-icon  style={{fontSize:"120px",color:'black'}}  name="bag-handle-outline"></ion-icon></a>
+      <a className="href1" ><LocalMallRoundedIcon  style={{fontSize:"120px",color:'black'}}  name="bag-handle-outline"></LocalMallRoundedIcon></a>
       </Link>
     </div>
     <div className="bt-about" >
     <Link to="/skills" >
-      <a className="href2" ><ion-icon style={{fontSize:"120px",color:'white'}}  name="construct-outline"></ion-icon></a>
+      <a className="href2" ><BuildOutlinedIcon style={{fontSize:"120px",color:'white'}}  name="construct-outline"></BuildOutlinedIcon></a>
       </Link>
     </div>
     </div>
@@ -50,9 +56,9 @@ export default function Home(){
     </div>
     </div>
     <div className="enlaces" >
-    <a  href="javascript:window.open('https://github.com/arielboyu','',);void 0"><button type="button" class="btn btn-success">Github <ion-icon name="logo-github"></ion-icon></button></a><br/>
+    <a  href="javascript:window.open('https://github.com/arielboyu','',);void 0"><button type="button" class="btn btn-success">Github <GitHubIcon name="logo-github"></GitHubIcon></button></a><br/>
     <div className="enlaces2" >
-    <a   href="javascript:window.open('https://www.linkedin.com/in/ariel-salcedo-b423b61ba/','',);void 0"><button type="button"  class="btn btn-primary">Linkedin <ion-icon name="logo-linkedin"></ion-icon></button></a><br/>
+    <a   href="javascript:window.open('https://www.linkedin.com/in/ariel-salcedo-b423b61ba/','',);void 0"><button type="button"  class="btn btn-primary">Linkedin <LinkedInIcon name="logo-linkedin"></LinkedInIcon></button></a><br/>
     </div>
     </div>
     <div className="cardInfo" >

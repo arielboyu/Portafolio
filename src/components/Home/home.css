@@ -1,3 +1,5 @@
+
+
 /* Header */
 .header {
   background-color: black;
@@ -76,7 +78,7 @@ transform: scaleX(-1); /* w3org */
   .header {
     width: 90%;
     align-items: flex-end;
-    height: 110px;
+    height: 115px;
     padding: 1rem;
     margin-bottom:15%
   }
@@ -118,16 +120,14 @@ transform: scaleX(-1); /* w3org */
 
 @media screen and (max-width:770px) {
   .nameH {
-    font-size: 24px;
-    margin-left: 6px;
-    margin-right:8px
+display: none;
   }
 }
 @media screen and (max-width:770px) {
   .job {
     font-size: 24px;
-    margin-left: 6px;
-    margin-right:8px
+    margin-left: 3px;
+    margin-right:4px;
   }
 }
 @media screen and (max-width:770px) {
