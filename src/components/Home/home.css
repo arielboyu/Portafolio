@@ -74,11 +74,12 @@ transform: scaleX(-1); /* w3org */
 
 }
 
+
 @media screen and (max-width:770px) {
   .header {
     width: 90%;
     align-items: flex-end;
-    height: 115px;
+    height: 90px;
     padding: 0.5rem;
     margin-bottom:17%
   }
@@ -87,6 +88,7 @@ transform: scaleX(-1); /* w3org */
   .foto-perfil {
     margin: 10px auto;
     width: 26%;
+    margin-bottom: 2px;
   }
 }
 
@@ -128,6 +130,7 @@ display: none;
     font-size: 24px;
     margin-left: 3px;
     margin-right:4px;
+    margin-top: 4px;
   }
 }
 @media screen and (max-width:770px) {

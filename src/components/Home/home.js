@@ -35,10 +35,12 @@ export default function Home(){
   return (
     <div>
     <div className="header">
-    <PersonOutlineSharpIcon className="nameH" style={{fontSize:"100px"}} name="person-outline"></PersonOutlineSharpIcon>
+      <div className="iconheader"  >
+    <PersonOutlineSharpIcon  style={{fontSize:"80px"}}  name="person-outline"></PersonOutlineSharpIcon>
+    </div>
       <h1 className="nameH" >{info.name}</h1>
       <h1 className="job" >{info.profession} </h1>
-      <DeveloperModeIcon className="nameH" style={{fontSize:"100px"}} name="person-outline"></DeveloperModeIcon>
+      <DeveloperModeIcon className="nameH" style={{fontSize:"80px"}} name="person-outline"></DeveloperModeIcon>
     </div>
     <div className="bts" >
     <div className="bt-proyectos" >
