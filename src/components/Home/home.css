@@ -136,12 +136,12 @@ display: none;
 }
 @media screen and (max-width:770px) {
   .cardInfo {
-    width: 260px;
+    width: 70%;
     height: 180px;
     margin: 16%auto;
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 140px; 
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 3%;
   }
 }
