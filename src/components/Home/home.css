@@ -41,15 +41,18 @@ transform: scaleX(-1); /* w3org */
 .cardInfo {
   background-color: black;
   width: 20%;
-  height: 400px;
-  padding: 1rem;
+  height: 260px;
   border-radius: 3%;
   box-shadow: 10px 5px 5px black;
   opacity: 0.9;
   color: white;
-  font-size: 20px;
-  margin-left: 16px;
-  margin-top: -135px
+  font-size: 18px;
+  position: fixed;
+  top:160px;
+  margin-left: 1%;
+  display: flex;
+  align-items: center;
+  
 
 }
 
@@ -143,5 +146,10 @@ display: none;
     margin-top: 140px; 
     padding: 1rem;
     border-radius: 3%;
+    position: fixed;
+    top:220px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 14%;
   }
 }

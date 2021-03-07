@@ -11,7 +11,7 @@ import LocalMallRoundedIcon from '@material-ui/icons/LocalMallRounded';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmojiPeopleIcon from '@material-ui/icons/EmojiPeople';
-import LaptopChromebookIcon from '@material-ui/icons/LaptopChromebook';
+import ImportantDevicesIcon from '@material-ui/icons/ImportantDevices';
 
 export default function Home(){
   const [loading,setLoading] = useState(false)
@@ -69,8 +69,8 @@ export default function Home(){
     <div className="linea1"></div>
      <p className="parrafo" > <EmojiPeopleIcon name="accessibility-outline"></EmojiPeopleIcon> Bienvenidos a mi portafolio de presentación,mi nombre es Ariel Salcedo, soy aficionado a la tecnología ,
          con muchas ganas de aceptar desafios y aprender
-              siempre nuevas herramientas de trabajo   <LaptopChromebookIcon name="rocket-outline"></LaptopChromebookIcon>  </p>
-
+              siempre nuevas herramientas de trabajo   <ImportantDevicesIcon>    </ImportantDevicesIcon>  </p>
+             
      </div>
       <Footer/>
     </div>
