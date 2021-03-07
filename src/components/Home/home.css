@@ -141,12 +141,10 @@ display: none;
   .cardInfo {
     width: 70%;
     height: 180px;
-    margin: 16%auto;
     font-size: 12px;
     margin-top: 195px; 
     padding: 1rem;
     border-radius: 3%;
-
     display: flex;
     align-items: flex-end;
     margin-left: 14%;
