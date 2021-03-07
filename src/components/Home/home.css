@@ -41,14 +41,13 @@ transform: scaleX(-1); /* w3org */
 .cardInfo {
   background-color: black;
   width: 20%;
-  height: 280px;
+  height: 274px;
   border-radius: 3%;
   box-shadow: 10px 5px 5px black;
   opacity: 0.9;
   color: white;
   font-size: 18px;
-  position: fixed;
-  top:160px;
+  margin-top: -100px;
   margin-left: 1%;
   display: flex;
   align-items: center;
@@ -70,7 +69,7 @@ transform: scaleX(-1); /* w3org */
   opacity: 0.9;
   color: white;
   font-size: 5px;
-  margin-top: 280px
+  margin-top: 390px
 
 }
 .enlaces2{
@@ -113,13 +112,7 @@ transform: scaleX(-1); /* w3org */
 @media screen and (max-width:770px) {
   .enlaces {
       display: none;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      background-color: transparent;
-      box-shadow: 1px 1px 1px transparent;
-      width: 100%;
-      padding: 10%
+
   }
 }
 
