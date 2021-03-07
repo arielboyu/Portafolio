@@ -41,7 +41,7 @@ transform: scaleX(-1); /* w3org */
 .cardInfo {
   background-color: black;
   width: 20%;
-  height: 260px;
+  height: 280px;
   border-radius: 3%;
   box-shadow: 10px 5px 5px black;
   opacity: 0.9;
