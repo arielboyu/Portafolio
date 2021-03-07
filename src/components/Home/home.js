@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 import Loading from '../Loading/loading'
 import DeveloperModeIcon from '@material-ui/icons/DeveloperMode';
 import PersonOutlineSharpIcon from '@material-ui/icons/PersonOutlineSharp';
-import BuildOutlinedIcon from '@material-ui/icons/BuildOutlined';
 import LocalMallRoundedIcon from '@material-ui/icons/LocalMallRounded';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
