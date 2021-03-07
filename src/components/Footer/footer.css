@@ -17,6 +17,7 @@
       position:fixed;
       left:0px;
       bottom:0px;
+      height:75px;
   }
 }
 .name-footer{
@@ -46,7 +47,7 @@ margin-bottom: -40px;
  flex-direction: row;
 align-items: flex-start;
 justify-content: center;
-margin-top: 8px;
+margin-top: 12px;
 
   }
 }

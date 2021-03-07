@@ -12,6 +12,8 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmojiPeopleIcon from '@material-ui/icons/EmojiPeople';
 import ImportantDevicesIcon from '@material-ui/icons/ImportantDevices';
+import LocalActivityIcon from '@material-ui/icons/LocalActivity';
+
 
 export default function Home(){
   const [loading,setLoading] = useState(false)
@@ -45,12 +47,12 @@ export default function Home(){
     <div className="bts" >
     <div className="bt-proyectos" >
     <Link to="/proyectos" >
-      <a className="href1" ><LocalMallRoundedIcon  style={{fontSize:"120px",color:'black'}}  name="bag-handle-outline"></LocalMallRoundedIcon></a>
+      <a className="href1" ><LocalMallRoundedIcon  style={{fontSize:"90px",color:'black'}}  name="bag-handle-outline"></LocalMallRoundedIcon></a>
       </Link>
     </div>
     <div className="bt-about" >
     <Link to="/skills" >
-      <a className="href2" ><BuildOutlinedIcon style={{fontSize:"120px",color:'white'}}  name="construct-outline"></BuildOutlinedIcon></a>
+      <a className="href2" ><LocalActivityIcon style={{fontSize:"100px",color:'white'}}  name="construct-outline"></LocalActivityIcon></a>
       </Link>
     </div>
     </div>
