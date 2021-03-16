@@ -4,6 +4,8 @@ import './portfolio.css'
 import Footer from '../Footer/footer'
 import { Modal } from "react-bootstrap";
 import ReactPlayer from "react-player";
+import PlayCircleOutlineIcon from '@material-ui/icons/PlayCircleOutline';
+
 
 export default function Portfolio(){
   const [port, setPort] = useState({});
@@ -74,11 +76,11 @@ export default function Portfolio(){
               >
                     <h1   style={{ fontSize: 35, color: "white",}} >Ver Video</h1>
                 <div className="carousel-center">
-                  <ion-icon
+                  <PlayCircleOutlineIcon
                     style={{ fontSize: 45, color: "white", cursor: "pointer" }}
                     onClick={() => setIsOpen(true)}
                     name="play-outline"
-                  ></ion-icon>
+                  ></PlayCircleOutlineIcon>
                  
                 </div>
               </div>
