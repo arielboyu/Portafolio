@@ -56,3 +56,19 @@
     padding: 0.2.5rem;
     border-radius: 4%;
 }
+
+
+.boton-play {
+ margin-top: -18%;
+  width: 100%;
+
+}
+
+
+@media screen and (max-width:770px) {
+  .boton-play {
+  display: flex;
+  margin-top: -38%;
+  justify-content: center;
+  }
+}
