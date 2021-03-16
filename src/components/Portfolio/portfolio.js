@@ -5,7 +5,7 @@ import Footer from '../Footer/footer'
 import { Modal } from "react-bootstrap";
 import ReactPlayer from "react-player";
 import PlayCircleOutlineIcon from '@material-ui/icons/PlayCircleOutline';
-
+import VisibilityIcon from '@material-ui/icons/Visibility';
 
 export default function Portfolio(){
   const [port, setPort] = useState({});
@@ -60,7 +60,7 @@ export default function Portfolio(){
                       <h1>{p.name}</h1>
                       <img className="imagen-proyecto" alt="imagen-proyecto" src={p.image}></img>
                       <p>{p.descripcion}</p>
-                      <a href={p.link} target="_blank" ><ion-icon style={{fontSize:"60px"}} name="eye-outline"></ion-icon></a>
+                      <a href={p.link} target="_blank" ><VisibilityIcon style={{fontSize:"60px"}} ></VisibilityIcon></a>
                   </div>
               )}
           </div>
@@ -74,14 +74,15 @@ export default function Portfolio(){
               <div
                 className="boton-play"
               >
-                    <h1   style={{ fontSize: 25, color: "white",}} >Ver Video</h1>
+                   
                 <div className="carousel-center">
+                  
                   <PlayCircleOutlineIcon
                     style={{ fontSize: 35, color: "white", cursor: "pointer" }}
                     onClick={() => setIsOpen(true)}
                     name="play-outline"
                   ></PlayCircleOutlineIcon>
-                 
+                  <h1   style={{ fontSize: 25, color: "white",}} >Ver Video</h1>
                 </div>
               </div>
             </div>
