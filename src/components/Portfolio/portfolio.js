@@ -74,10 +74,10 @@ export default function Portfolio(){
               <div
                 className="boton-play"
               >
-                    <h1   style={{ fontSize: 35, color: "white",}} >Ver Video</h1>
+                    <h1   style={{ fontSize: 25, color: "white",}} >Ver Video</h1>
                 <div className="carousel-center">
                   <PlayCircleOutlineIcon
-                    style={{ fontSize: 45, color: "white", cursor: "pointer" }}
+                    style={{ fontSize: 35, color: "white", cursor: "pointer" }}
                     onClick={() => setIsOpen(true)}
                     name="play-outline"
                   ></PlayCircleOutlineIcon>
